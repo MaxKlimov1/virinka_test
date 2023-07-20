@@ -697,10 +697,6 @@ header{
     text-transform: uppercase;
 }
 
-/* .last-img-line1 div, .last-img-line2 div{
-    margin: 0 10px 0 10px !important;
-} */
-
 
 /* FEEDBACK SECTION */
 
@@ -938,10 +934,6 @@ header{
 .slide2-item-news{
     display: flex;
     justify-content: center;
-}
-
-.ns1{
-    margin-right: 20px;
 }
 
 .slider-news{

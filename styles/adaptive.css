@@ -25,6 +25,10 @@
         max-width: 992px;
     }
 
+    .line-left, .line-right, .job-line-left, .job-line-right {
+        display: none;
+    }
+
     .header-phone p {
         font-size: 16px;
     }
@@ -284,10 +288,6 @@
     .question-list {
         width: 100%;
         margin-top: 20px;
-    }
-
-    .ns1{
-        display: none;
     }
 
     .news-slide-content {
