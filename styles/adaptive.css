@@ -1,0 +1,420 @@
+@media(max-width: 1266px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .differences-item {
+        padding: 30px;
+    }
+
+    .differences-item-wrapp {
+        width: 85%;
+    }
+
+    .diw-img img {
+        width: 100%;
+    }
+
+    .grid1 img {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1201px) {
+    .container {
+        max-width: 992px;
+    }
+
+    .header-phone p {
+        font-size: 16px;
+    }
+
+    .social-item {
+        margin-left: 5px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .sl2 {
+        margin-left: 5px;
+    }
+
+    .header-item {
+        margin-left: 10px;
+    }
+
+    .slider-item img {
+        width: 100%;
+    }
+
+    .slider-item {
+        width: 100%;
+    }
+
+    /* .slider-list {
+        justify-content: center;
+    } */
+
+    .differences-cards {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        justify-content: center;
+    }
+
+    .how-img2,
+    .how-img1 {
+        width: 100%;
+    }
+
+    .answer-descr {
+        width: 270px;
+    }
+
+    .catalog-img1 img,
+    .catalog-img2 img {
+        width: 100%;
+    }
+
+    .slide2-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .slide2-item img {
+        width: 45%;
+    }
+
+    .job-descr-list {
+        margin-top: 45px;
+        display: grid;
+        grid-template-columns: repeat(2, 48%);
+        justify-content: center;
+    }
+
+    .grid1 {
+        display: none;
+    }
+
+    .comment-description {
+        color: var(--unnamed, #342D2B);
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 155%;
+        width: 360px;
+    }
+
+    .comment-username {
+        padding: 20px;
+        margin-right: 10px;
+    }
+
+    .com-img{
+        width: 45%;
+    }
+
+    .slide2-item-comm {
+        justify-content: center;
+    }
+
+    .question-table-title{
+        font-size: 22px;
+        width: 70%;
+    }
+
+    .question-item p {
+        width: 90%;
+    }
+
+    .news-slide-content img{
+        width: 100%;
+    }
+
+    .slide-content-descr h3 {
+        font-size: 16px;
+    }
+
+    .contacts-item img{
+        width: 54px;
+        height: 56px;
+    }
+
+    .contacts-map img{
+        width: 100%;
+    }
+
+    .contacts-wrapp {
+        align-items: center;
+    }
+}
+
+@media(max-width: 993px) {
+    .container{
+        max-width: 768px;
+    }
+
+    .header-navigation{
+        display: none;
+    }
+
+    .social-item {
+        margin-left: 20px;
+    }
+
+    .how-item:first-child{
+        display: none;
+    }
+
+    .catalog-img2{
+        display: none;
+    }
+
+    .job-descr-item {
+        padding: 25px;
+    }
+
+    .news-title h2 {
+        width: 80%;
+    }
+
+    .contacts-wrapp {
+        flex-direction: column;
+    }
+
+    .contacts-map{
+        margin: 15px 0 0 0;
+    }
+
+    .comment-description {
+        color: var(--unnamed, #342D2B);
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 155%;
+        width: auto;
+    }
+
+    .question-content {
+        align-items: center;
+    }
+
+    .job-descr-item {
+        padding: 10px;
+    }
+
+    .job-item-descr {
+        width: 80%;
+    }
+
+    .job-item-title{
+        width: 60%;
+    }
+
+    .job-descr-item {
+        width: 100%;
+    }
+
+    .last-works {
+        border-radius: 40px;
+        background: rgb(235, 236, 238);
+        padding: 50px;
+    }
+
+    .main-title h1 {
+        width: 100%;
+    }
+}
+
+@media(max-width: 769px) {
+    .container{
+        max-width: 576px;
+    }
+
+    .slider-two-item{
+        display: none;
+    }
+
+    .slider-item{
+        width: 100%;
+    }
+
+    .how-content {
+        flex-direction: column-reverse;
+    }
+
+    .catalog-list {
+        flex-direction: column;
+    }
+
+    .s2-i1{
+        display: none;
+    }
+
+    .slide2-item img{
+        width: 90%;
+    }
+
+    .job-descr-item2 p {
+        width: auto;
+    }
+
+    .slide2-item-comm {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .com-img {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .comment-username {
+        width: 100%;
+    }
+
+    .question-content {
+        flex-direction: column-reverse;
+    }
+
+    .question-table {
+        width: 100%;
+    }
+
+    .question-list {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .ns1{
+        display: none;
+    }
+
+    .news-slide-content {
+        width: 90%;
+    }
+
+    .wholesale-title h2 {
+        font-size: 28px;
+        width: auto;
+    }
+
+    .app-title h2 {
+        font-size: 28px;
+    }
+}
+
+@media(max-width: 577px) {
+    .container{
+        max-width: 100%;
+    }
+
+    .header-social {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-item{
+        margin-top: 10px;
+    }
+
+    .differences-cards {
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    .differences-item-wrapp {
+        width: 100%;
+    }
+
+    .app-content {
+        flex-direction: column;
+    }
+
+    .app-i1 {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    .slider2-title {
+        width: auto;
+    }
+
+    .job-descr-list {
+        grid-template-columns: repeat(1, 100%);
+        text-align: center;
+    }
+
+    .grid2 {
+        grid-column: 1;
+        padding: 10px
+    }
+
+    .job-item-title {
+        width: 100%;
+    }
+
+    .job-item-descr{
+        width: 100%;
+    }
+
+    .feedback-title h2 {
+        width: auto;
+    }
+
+    .footer-list {
+        flex-direction: column;
+    }
+
+    .footer-item{
+        margin-top: 20px;
+    }
+
+    .footer-list p {
+        font-size: 22px;
+    }
+
+    .comment-estimation {
+        flex-direction: column;
+    }
+
+    .estimation-date {
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .arrow-right, .arrow-left{
+        display: none;
+    }
+
+    .news-title h2 {
+        width: 100%;
+    }
+
+    .main-title h1 {
+        font-size: 36px;
+    }
+
+    .differences-title h2 {
+        font-size: 36px;
+    }
+
+    .slider2-title h2 {
+        font-size: 36px;
+    }
+
+    .job-line-right, .job-line-left{
+        display: none;
+    }
+}
+
+@media(max-width: 450px) {
+    .catalog-item {
+        width: auto;
+    }
+
+    .news-title h2 {
+        font-size: 36px;
+        width: auto;
+    }
+}
